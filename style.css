@@ -11,6 +11,8 @@
     --gray-400: #94a3b8;
     --gray-200: #e2e8f0;
     --purple:   #7c3aed;
+    --white:    #fff;
+
 }
 
 header{
@@ -87,4 +89,23 @@ main{
 
 .login a :hover{
     text-decoration: underline;
+}
+
+.login button{
+    margin-top: 2.2rem;
+    margin-bottom: 2rem;
+    padding-block: 1rem;
+    width: 100%;
+    background: var(--purple);
+    border: none;
+    border-radius: 0.4rem;
+
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.login > p{
+    font-weight: 700;
+    font-size: 1rem;
 }
